@@ -4,5 +4,8 @@
     <h2>{{ snacks.name }}</h2>
     <p>Purchaser: {{ snacks.purchaser }}</p>
     <p>Description: {{ snacks.description }}</p>
+    <nav>
+      <a href="{%url 'snack_list' %}">Back to list</a>
+    </nav>
   </div>
 {% endblock content %}
